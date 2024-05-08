@@ -1,6 +1,6 @@
 public class FindFirstRepetitiveCharFromString {
     public static void main(String[] args) {
-        String inputString = "qwert yuiop asdfg hjkll";
+        String inputString = "qwert yuiop asdfg hjkl";
 
         char[] stringArray = inputString.toLowerCase().replaceAll("\\s+", "").toCharArray();
 
